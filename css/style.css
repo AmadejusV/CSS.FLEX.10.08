@@ -1,0 +1,73 @@
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+h3, p{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	margin: 0 auto;
+}
+p{
+	font-size:20px;
+	}
+main{
+	height: 500px;
+}
+main, section{
+	flex-direction: row;
+	display: flex;
+}
+section:nth-child(3){
+	height: 200px;
+	margin-top: 10px;
+}
+header{
+	height: 100px;
+	background-color: #80e5ff;
+}
+.siauras{
+	width: 40%;
+}
+.siauras div{
+	margin: 0 2.5px 5px 0 ;
+}
+.platus div{
+	margin: 0 0 5px 2.5px ;
+}
+.platus{
+	width: 60%;
+}
+.hero{
+	height: 40%;
+	background-color: #ffccff;
+	align-items: baseline;
+}
+.main{
+	height: 70%;
+	background-color: #ffd633;
+}
+.sidebar{
+	height: 60%;
+	background-color: #53c68c;
+}
+.extra{
+	height: 30%;
+	background-color: #527a7a;
+}
+.relatedImg{
+	background-color: #00b359;
+	width: 70%;
+	margin-right: 5px;
+}
+.relatedPosts{
+	background-color: #ffccff;
+	width: 30%;
+}
+footer{
+	background-color: #ff9900;
+	height: 100px;
+}
+header,main,section,footer{
+	margin: 5px;
+}
