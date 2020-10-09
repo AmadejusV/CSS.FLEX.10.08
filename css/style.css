@@ -1,79 +1,84 @@
-.container{
-	width: 80%;
-	margin: 0 auto;
+html,
+body {
+  height: 100%;
 }
-h3, p{
-	text-align: center;
-	font-size: 40px;
-	color: white;
-	margin: 0 auto;
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  padding: 0;
+  margin: 0;
 }
-h3{
-	line-height: 200px;
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
 }
-p{
-	font-size:20px;
+main {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  flex: 4;
 }
-main{
-	height: 500px;
+.platus {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex: 4;
 }
-main, section{
-	flex-direction: row;
-	display: flex;
+.siauras {
+  display: flex;
+  flex-direction: column;
+  flex: 6;
 }
-section:nth-child(3){
-	height: 200px;
-	margin-top: 10px;
+section {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
 }
-header{
-	height: 100px;
-	background-color: #80e5ff;
+header {
+  background-color: #4ed6ec;
+  text-align: center;
+  margin-bottom: 10px;
 }
-.siauras{
-	width: 40%;
+.hero {
+  background-color: #d7c9e3;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  flex: 4;
 }
-.siauras div{
-	margin: 0 2.5px 5px 0 ;
+.sidebar {
+  background-color: #9ec369;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  flex: 6;
 }
-.platus div{
-	margin: 0 0 5px 2.5px ;
+.main {
+  background-color: #efc13f;
+  margin-bottom: 10px;
+  text-align: center;
+  flex: 6;
 }
-.platus{
-	width: 60%;
+.extra {
+  background-color: #898989;
+  margin-bottom: 10px;
+  text-align: center;
+  flex: 4;
 }
-.hero{
-	height: 40%;
-	background-color: #ffccff;
+.relatedImg {
+  background-color: #1a9e67;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  flex: 4;
 }
-.main{
-	height: 70%;
-	background-color: #ffd633;
+.relatedPosts {
+  background-color: #e2bacb;
+  margin-bottom: 10px;
+  text-align: center;
+  flex: 2;
 }
-.sidebar{
-	height: 60%;
-	background-color: #53c68c;
-}
-.extra{
-	height: 30%;
-	background-color: #527a7a;
-}
-.relatedImg{
-	background-color: #00b359;
-	width: 70%;
-	margin-right: 5px;
-}
-.relatedPosts{
-	background-color: #ffccff;
-	width: 30%;
-}
-footer{
-	background-color: #ff9900;
-	height: 100px;
-}
-header,main,section,footer{
-	margin: 5px;
-}
-.siauras div, .extra, header, footer, section div{
-	display: flex;
-  	align-items: center;
+footer {
+  background-color: #ffa520;
+  text-align: center;
 }
